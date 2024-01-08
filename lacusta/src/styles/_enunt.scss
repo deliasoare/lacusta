@@ -1,0 +1,35 @@
+.enuntContainer {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .enuntModal {
+        padding: 1.5em;
+        width: 70%;
+        border-radius: 5px;
+        position: absolute;
+        background: $header;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .enuntClose {
+            position: absolute;
+            top: 2px;
+            right: 5px;
+            cursor: pointer;
+            &:hover {
+                color: $bg;
+            }
+        }
+        .enuntContent {
+            width: 80%;
+            font-size: 0.9rem;
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: bolder;
+        }
+    }
+}

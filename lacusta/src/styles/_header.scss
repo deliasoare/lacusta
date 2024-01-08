@@ -1,0 +1,12 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1em;
+   background: $header;
+   .title {
+      font-size: 1rem;
+      font-weight: bolder;
+   }
+   @include button;
+}
