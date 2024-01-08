@@ -11,9 +11,9 @@
     .grid {
         display: flex;
         flex-direction: column;
-        width: 75%; 
         position: relative;
-        overflow-y:unset;
+        width: min(80%, 650px);
+        overflow-y: hidden;
 
         .row {
             display: flex;
@@ -46,7 +46,7 @@
             animation-fill-mode: forwards;
             animation-iteration-count: infinite;
             img {
-                height: 75px;
+                height: 55px;
             }
         }
     }
