@@ -55,10 +55,10 @@ function Grid({n, m, matrix, pozitii, suma, setSuma}) {
             
                     currentSuma += matrix[poz[0]][poz[1]];
                     setSuma(currentSuma);
-                }, 2000 * (index - 1));
+                }, 3000 * (index - 1));
             
             }
-            delay += 2000;
+            delay += 3000;
         })
     }, [widthCelula, heightCelula])
 

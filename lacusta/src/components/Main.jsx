@@ -48,7 +48,7 @@ function Main({n, m, matrix}) {
         for (let i = n - 1; i >= 2; i--) {
             nr++;
             for (let j = 1; j <= m; j++) {
-                if (caut == minim[i][j]) {
+                if (caut == minim[i][j] && j != p[nr - 1]) {
                     p[nr] = j;
                 }
             }
