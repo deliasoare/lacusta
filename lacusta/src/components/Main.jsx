@@ -36,7 +36,7 @@ function Main({n, m, matrix}) {
         let nr = 1;
         let p = Array(n);
         let Min = Number.MAX_SAFE_INTEGER;
-        for (let i = 1; i <= m; i++) {
+        for (let i = 1; i < m; i++) {
             if (minim[n][i] < Min) {
                 Min = minim[n][i];
                 p[1] = i;
